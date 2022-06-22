@@ -1,0 +1,138 @@
+.tophead {
+  width: 100%;
+  height: 60px;
+  background-color: var(--amaranth);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__redes {
+    display: flex;
+    align-items: center;
+    height: 85%;
+
+    a {
+      text-decoration: none;
+      padding: 0 15px;
+      color: white;
+    }
+  }
+
+  &__horario {
+    padding: 0 15px;
+  }
+
+  &__btn {
+    height: 85%;
+    padding: 5px 25px;
+    margin: 0 5px;
+    border: 5px solid var(--ruby-red);
+    border-radius: 8px;
+    background-color: yellow;
+    color: var(--ruby-red);
+    /* text-shadow: 0 0 10px var(--ruby-red); */
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+  }
+}
+
+.mainheader {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  &__wrapper {
+    display: flex;
+    height: 100%;
+    width: 1250px;
+    align-items: center;
+    justify-content: space-between;
+    
+      }
+
+  &__logo {
+    background-color: white;
+    background-image: url("../media/SMASHINGLOGO _ _Preview-0.svg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    @include size(200px, 250px);
+  }
+
+  .navbar {
+    display: flex;
+    list-style: none;
+
+    li {
+      padding: 1rem 2rem;
+
+      a {
+        color: var(--dark-purple);
+        text-decoration: none;
+        font-size: 22px;
+        
+    line-height: 35px;
+    font-weight: bolder;
+
+      }
+    }
+  }
+}
+
+.bottomhead {
+  display: flex;
+  background-color: yellow;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--ruby-red);
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: bold;
+
+  &__cta, &__phoneNumber{
+    padding: 0.5rem 2rem;
+
+  }
+  
+  h2,span {
+    margin: 0;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+  }
+}
+
+
+.intro{
+  height: 520px;
+  @extend .verCaja;
+  background-color: rgba(66, 152, 181, 0.74);
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  
+
+  &__BG{
+    position: absolute;
+    z-index: -1000;
+    height: 100%;
+    width: 100%;
+    background-image: url(/media/istockphoto-industrialkitchen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25% 45%;
+     }
+  
+     &__wrapper{
+      padding: 2rem 0;
+
+     }
+}

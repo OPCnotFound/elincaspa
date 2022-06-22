@@ -1,0 +1,13 @@
+@mixin sizes1_1($height) {
+  height: $height;
+  width: $height;
+}
+
+@mixin size($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+.verCaja{
+  border: 2px solid black;
+}

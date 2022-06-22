@@ -1,0 +1,136 @@
+/* ESTILOS INDEPENDIENTES */
+.verCaja, .intro {
+  border: 2px solid black;
+}
+
+* {
+  margin: 0 0;
+  padding: 0;
+}
+
+:root {
+  --floral-white: #fbfbf2ff;
+  --blue-green: #4298b5ff;
+  --dark-purple: #361134ff;
+  --ruby-red: #a31621ff;
+  --amaranth: #e40046ff;
+}
+
+.tophead {
+  width: 100%;
+  height: 60px;
+  background-color: var(--amaranth);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tophead__redes {
+  display: flex;
+  align-items: center;
+  height: 85%;
+}
+.tophead__redes a {
+  text-decoration: none;
+  padding: 0 15px;
+  color: white;
+}
+.tophead__horario {
+  padding: 0 15px;
+}
+.tophead__btn {
+  height: 85%;
+  padding: 5px 25px;
+  margin: 0 5px;
+  border: 5px solid var(--ruby-red);
+  border-radius: 8px;
+  background-color: yellow;
+  color: var(--ruby-red);
+  /* text-shadow: 0 0 10px var(--ruby-red); */
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.mainheader {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.mainheader__wrapper {
+  display: flex;
+  height: 100%;
+  width: 1250px;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainheader__logo {
+  background-color: white;
+  background-image: url("../media/SMASHINGLOGO _ _Preview-0.svg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 200px;
+  width: 250px;
+}
+.mainheader .navbar {
+  display: flex;
+  list-style: none;
+}
+.mainheader .navbar li {
+  padding: 1rem 2rem;
+}
+.mainheader .navbar li a {
+  color: var(--dark-purple);
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: bolder;
+}
+
+.bottomhead {
+  display: flex;
+  background-color: yellow;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--ruby-red);
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: bold;
+}
+.bottomhead__cta, .bottomhead__phoneNumber {
+  padding: 0.5rem 2rem;
+}
+.bottomhead h2, .bottomhead span {
+  margin: 0;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.intro {
+  height: 520px;
+  background-color: rgba(66, 152, 181, 0.74);
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.intro__BG {
+  position: absolute;
+  z-index: -1000;
+  height: 100%;
+  width: 100%;
+  background-image: url(/media/istockphoto-industrialkitchen.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 25% 45%;
+}
+.intro__wrapper {
+  padding: 2rem 0;
+}/*# sourceMappingURL=estilos.css.map */

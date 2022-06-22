@@ -1,0 +1,25 @@
+.tophead {
+  width: 100vw;
+  height: 75px;
+  background-color: var(--amaranth);
+  color: white;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.tophead a {
+  text-decoration: none;
+  margin: 0 15px;
+  text-align: center;
+}
+.tophead a i {
+  color: white;
+}
+.tophead__horario {
+  padding: 0 15px;
+}
+.tophead__btn {
+  justify-self: end;
+  padding: 0 15px;
+  background-color: yellow;
+}/*# sourceMappingURL=index.css.map */
