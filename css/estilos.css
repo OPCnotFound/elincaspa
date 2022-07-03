@@ -6,6 +6,7 @@
 * {
   margin: 0 0;
   padding: 0;
+  font-family: "Oswald", sans-serif;
 }
 
 :root {
@@ -16,9 +17,11 @@
   --amaranth: #e40046ff;
 }
 
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
 .tophead {
   width: 100%;
-  height: 60px;
+  height: 50px;
   background-color: var(--amaranth);
   color: white;
   font-size: 15px;
@@ -36,6 +39,10 @@
   text-decoration: none;
   padding: 0 15px;
   color: white;
+}
+.tophead__redesAgenda {
+  text-decoration: none;
+  color: var(--ruby-red);
 }
 .tophead__horario {
   padding: 0 15px;
@@ -56,7 +63,7 @@
 
 .mainheader {
   width: 100%;
-  height: 250px;
+  height: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -71,12 +78,11 @@
 }
 .mainheader__logo {
   background-color: white;
-  background-image: url("../media/SMASHINGLOGO _ _Preview-0.svg");
+  background-image: url("../media/corporateImage/LOGO.svg");
   background-size: cover;
   background-position: center;
-  border-radius: 50%;
-  height: 200px;
-  width: 250px;
+  height: 100px;
+  width: 200px;
 }
 .mainheader .navbar {
   display: flex;
@@ -106,7 +112,8 @@
 .bottomhead__cta, .bottomhead__phoneNumber {
   padding: 0.5rem 2rem;
 }
-.bottomhead h2, .bottomhead span {
+.bottomhead h2,
+.bottomhead span {
   margin: 0;
   font-size: 30px;
   line-height: 40px;
